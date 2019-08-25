@@ -1,0 +1,8 @@
+---
+---
+<span>Photos:</span>
+<ul>
+  {% for photo in site.data["album1"] %}
+    <li>Title: {{ photo | jsonify }}</li>
+  {% endfor %}    
+</ul>
