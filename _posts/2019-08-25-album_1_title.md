@@ -1,5 +1,6 @@
 ---
 title: Album 1 Title
+layout: post
 
 ---
 Some content
