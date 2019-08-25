@@ -10,3 +10,7 @@ email: john@doe.com
 baseurl: "/jekyll_photo"
 
 remote_theme: yefim/yefeme
+theme: yefim/yefeme
+
+exclude: [vendor]
+
