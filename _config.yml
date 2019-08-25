@@ -1,0 +1,12 @@
+
+title: The Musings of Yefim Vedernikoff
+
+twitter_username: johndoe
+
+github_username: johndoe
+
+email: john@doe.com
+
+baseurl: "/jekyll_photo"
+
+remote_theme: yefim/yefeme
