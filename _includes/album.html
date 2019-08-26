@@ -3,8 +3,8 @@ layout: post
 ---
 <span>Photos:</span>
 <ul>
-  {% for photo in site.data["album1"] %}
-    <li>Title: {{ photo | jsonify }}</li>
+  {% for photo in site.data[include.name] %}
+  <li><img src="{{ photo.baseUrl}}"></li>
   {% endfor %}    
 </ul>
 <h1>{{ include.name }}</h1>
