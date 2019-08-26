@@ -5,6 +5,7 @@ layout: post
 <ul>
   {% for photo in site.data[include.name] %}
   <li>
+    <button>Ajouter au panier</button>
     <a href="{{ photo.bigPath | relative_url }}">
       <img src="{{ photo.smallPath | relative_url }}">
     </a>

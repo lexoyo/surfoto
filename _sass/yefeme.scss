@@ -308,3 +308,33 @@ article {
 svg {
   flex-shrink: 0;
 }
+
+
+
+li {
+margin: auto;
+}
+ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+button {
+  color: #fff;
+  background-color: #46b29d;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  line-height: 34px;
+  height: 34px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 10px 70px;
+  
+  display: none;
+}
+li:hover button {
+  display: block;
+}
