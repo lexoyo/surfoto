@@ -5,7 +5,13 @@ layout: post
 <ul>
   {% for photo in site.data[include.name] %}
   <li>
-    <button>Ajouter au panier</button>
+    <button
+      data-item-id="{{ photo.name }}-{{ photo.size }}"
+      data-item-name="{{ site.productName }} {{ photo.name }}"
+      data-item-price="{{ site.productPrice }}"
+      data-item-url="{{ page.url | absolute_url }}"
+      data-item-description="{{ site.productsDescription }}"
+    >Ajouter au panier</button>
     <a href="{{ photo.bigPath | relative_url }}">
       <img src="{{ photo.smallPath | relative_url }}">
     </a>
