@@ -2,6 +2,6 @@ title: The Musings of Yefim Vedernikoff
 twitter_username: johndoe
 github_username: johndoe
 email: john@doe.com
-baseurl: ''
+baseurl: /
 exclude:
   - vendor
