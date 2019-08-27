@@ -6,6 +6,7 @@ twitter_username: johndoe
 github_username: johndoe
 email: john@doe.com
 baseurl: /
+url: https://surfoto.ifrance.net
 snipcartKey: "YzA2MGMyMDQtOGEyZC00MTRhLTljMDYtNGQ1ZGFiZTYxNmZhNjM2OTkzNDY1MTE1NDYxMzgz"
 exclude:
   - vendor
